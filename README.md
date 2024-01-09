@@ -1,0 +1,25 @@
+# OpenCUBE Deliverable 4.1 Reproducibility
+
+This repository contains all data and code for reproducing figures 2-9 in the OpenCUBE Deliverable 4.1. 
+It also contains the source code and instructions to gather the data used for these figures.
+
+> Note that the source code has been developed and tested on the OpenCUBE prototype testbed system and is therefore built upon several assumptions.
+> This includes the presence of servers at well-known hostnames/IP addresses, as well as existence of binaries at specific locations.
+> The data gathering source code included in this repository are primarily meant for validation purposes.
+
+## Requirements
+
+Visualising the included data requires a recent Python 3 interpreter (tested with 3.11) and several packets listed in `requirements.txt`.
+Install them using `pip install -r requirements.txt`. Ideally create a new virtual environment to avoid collisions.
+
+Aggregating the underlying data primarily uses third-party benchmark code and wrapping bash scripts. 
+The requirements and installation instructions are listed in the figure-specific `README.md` files.
+
+## Usage
+
+Each figure-specific folder contains at least a `data` subfolder which contains the measurement data gathered on the OpenCUBE testbed
+and a `visualisation` subfolder containing the visualisation Python code. 
+Most folders also include a third subfolder `measurement_src`, which contains the measurement source code.
+
+All `data` folders are pre-populated with the gathered measurement data. Running the respective visualisation scripts
+will generate the figures as presented in D4.1.
