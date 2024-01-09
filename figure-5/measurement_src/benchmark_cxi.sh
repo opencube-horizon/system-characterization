@@ -35,7 +35,7 @@ echo "$meta_info" > "$OUTFILE_STEM"_"meta.md"
 server_node_idx=0
 client_node_idx=1
 
-for test_idx in ${!CXI_TESTS[@]} 
+for test_idx in "${!CXI_TESTS[@]} "
 do 
 	printf "\r[$(($test_idx+1))/${#CXI_TESTS[@]}] %-50s" ${CXI_TESTS[$test_idx]}
 	executable="$CXI_BASEPATH/${CXI_TESTS[$test_idx]}"

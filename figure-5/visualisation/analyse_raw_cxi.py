@@ -21,13 +21,6 @@ class Measurement:
 	df: pd.DataFrame
 	mtype: str
 
-	def get_name(self) -> str:
-		return f"{self.name}"
-
-	def x_filter(self, fr: int, to: int):
-		self.df = self.df.loc[fr:to,]
-		return self
-
 def plot_multiple(measurements: [Measurement], 
 	ylabel: str, 
 	name: str = "",
