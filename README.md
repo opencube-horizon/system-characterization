@@ -23,3 +23,8 @@ Most folders also include a third subfolder `measurement_src`, which contains th
 
 All `data` folders are pre-populated with the gathered measurement data. Running the respective visualisation scripts
 will generate the figures as presented in D4.1.
+
+# License
+
+All code is under the Apache 2 license.
+All images are under the CC-BY 4.0 license.
