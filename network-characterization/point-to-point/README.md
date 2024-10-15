@@ -1,4 +1,7 @@
-# Figure 2 - Point-to-Point Network Metrics
+# Network - Point-to-Point Network Metrics
+
+This folder provides data and visualisation scripts on point-to-point network metrics.
+The results are reported in D4.1. in Figure 2.
 
 ## Requirements
 

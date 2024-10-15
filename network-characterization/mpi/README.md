@@ -1,4 +1,7 @@
-# Figures 3,4,6 - OSU Microbenchmark
+# Network - MPI Characterization
+
+This folder provides data and visualisation scripts for MPI network characterization using the OSU Micro-Benchmark suite.
+The results are reported in D4.1 in Figures 3, 4, and 6.
 
 ## Requirements
 

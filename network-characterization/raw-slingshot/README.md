@@ -1,4 +1,7 @@
-# Figure 9 - Memory Latency
+# Network - Raw Slingshot
+
+This folder provides data and visualisation scripts for raw/direct HPE Cray Slingshot-11 network metrics.
+The results are reported in D4.1. in Figure 5.
 
 ## Requirements
 

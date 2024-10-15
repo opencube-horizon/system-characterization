@@ -1,4 +1,7 @@
-# Figures 7, 8 - Core-to-Core Latency
+# Compute - Core-to-Core Latency
+
+This folder provides data and visualisation scripts for core-to-core latency metrics.
+The results are reported in D4.1. in Figures 7 and 8.
 
 ## Requirements
 

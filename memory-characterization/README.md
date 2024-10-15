@@ -1,4 +1,7 @@
-# Figure 9 - Memory Latency
+# Memory - Latency
+
+This folder provides data and visualisation scripts for Memory Latency metrics.
+The results are reported in D4.1. in Figure 9.
 
 ## Requirements
 
