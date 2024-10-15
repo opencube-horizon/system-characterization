@@ -1,6 +1,6 @@
-# OpenCUBE Deliverable 4.1 Reproducibility
+# OpenCUBE Testbed System Characterization
 
-This repository contains all data and code for reproducing figures 2-9 in the OpenCUBE Deliverable 4.1. 
+This repository contains all datasets and visualization code for the OpenCUBE Testbed System Characterization, as reported in Deliverable 4.1
 It also contains the source code and instructions to gather the data used for these figures.
 
 > Note that the source code has been developed and tested on the OpenCUBE prototype testbed system and is therefore built upon several assumptions.
