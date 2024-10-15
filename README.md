@@ -1,4 +1,5 @@
 # OpenCUBE Testbed System Characterization
+ [![DOI](https://zenodo.org/badge/740965899.svg)](https://doi.org/10.5281/zenodo.13933400)
 
 This repository contains all datasets and visualization code for the OpenCUBE Testbed System Characterization, as reported in Deliverable 4.1
 It also contains the source code and instructions to gather the data used for these figures.
